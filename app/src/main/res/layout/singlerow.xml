@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mydesign">
+<TextView
+    android:id="@+id/taske"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="Task"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textColor="#238D9C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hahahahaha"
+        android:layout_below="@+id/taske"
+        android:layout_alignLeft="@+id/taske"
+        android:layout_alignStart="@+id/taske"
+        android:layout_marginTop="31dp" />
+</RelativeLayout>
